@@ -40,4 +40,48 @@
 **Description:** Adapt the ActivityHub features to fit the existing Flask app (`src/app.py`) and static files (`static/index.html`, etc.). Convert HTML pages to templates or routes in Flask, add backend logic for activity management, user roles, and database integration if needed.
 
 **Labels:** backend, integration  
+**Assignee:** None  
+
+# New Issues for Enhancing the Current Project
+
+## Issue 7: Implement User Authentication and Roles
+**Title:** Add User Authentication and Role-Based Access  
+**Description:** Implement login system in FastAPI with JWT or session-based auth. Add roles (admin, student). Protect routes based on roles. Update frontend to include login page and role selection.
+
+**Labels:** backend, authentication, security  
+**Assignee:** None  
+
+## Issue 8: Create Admin Dashboard
+**Title:** Build Admin Dashboard for Managing Activities  
+**Description:** Create a new HTML page or template for admins. Include table to list/edit/delete activities, manage students, view reports. Add backend endpoints for CRUD operations on activities. Integrate with existing API.
+
+**Labels:** frontend, backend, admin  
+**Assignee:** None  
+
+## Issue 9: Enhance User Dashboard
+**Title:** Develop User Dashboard with Menus and Notifications  
+**Description:** Redesign the current index.html into a dashboard with left menu (Dashboard, My Activities, Register Event, Upcoming Events), body with activity table and register buttons, right menu for notifications. Add backend for user-specific data.
+
+**Labels:** frontend, backend, user  
+**Assignee:** None  
+
+## Issue 10: Add Notifications System
+**Title:** Implement Notifications for Users and Admins  
+**Description:** Add backend logic for notifications (e.g., activity updates, registrations). Store and retrieve notifications. Display in dashboards.
+
+**Labels:** backend, frontend, notifications  
+**Assignee:** None  
+
+## Issue 11: Improve Styling and Layout
+**Title:** Update CSS for Grid Layouts and Responsiveness  
+**Description:** Adopt grid-based layouts similar to ActivityHub. Ensure consistency across pages. Add colors and hover effects. Make fully responsive.
+
+**Labels:** frontend, styling  
+**Assignee:** None  
+
+## Issue 12: Add JavaScript Enhancements
+**Title:** Enhance JS for Role-Based UI and Interactions  
+**Description:** Update app.js to handle role-based redirections, dynamic menus, and new interactions (e.g., edit/delete buttons). Add logout functionality.
+
+**Labels:** frontend, javascript  
 **Assignee:** None
